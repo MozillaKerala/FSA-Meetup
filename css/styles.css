@@ -438,3 +438,13 @@ a:hover {
 #people .modal-content {
 	background-color: transparent;
 }
+
+/* Agenda */
+
+#agenda ul li {
+	color: #484848;
+	list-style: none;
+	background-color: #D4DDE4;
+	padding: 2%;
+	margin: 1% 15%;
+}
