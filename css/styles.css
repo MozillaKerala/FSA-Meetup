@@ -1,10 +1,14 @@
 /* Body */
+body {
+	color:#2E2E2E;
+}
+
 a {
-	color: #FF9500;
+	color: #FF9500 !important;
 }
 
 a:hover {
-	color: #E66000;
+	color: #E66000 !important;
 }
 
 
@@ -369,4 +373,19 @@ a:hover {
   80% { transform: translateY(0); }
 
   100% { transform: translateY(0); }
+}
+
+/* Overview */
+
+#overview {
+	margin: 2.5% 0%;
+}
+
+#overview p {
+	font-size: 125%;
+}
+
+#overview .btn {
+	color: #FFFFFF !important;
+	border: non
 }
