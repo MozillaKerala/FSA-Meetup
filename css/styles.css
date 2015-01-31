@@ -5,6 +5,10 @@ body {
 	text-align: center;
 }
 
+section {
+	padding: 2.5% 0%;
+}
+
 a {
 	color: #FF9500 !important;
 }
@@ -382,12 +386,12 @@ a:hover {
 
 /* Overview */
 
-#overview {
-	margin: 2.5% 0%;
-}
-
 #overview p {
 	font-size: 125%;
+}
+
+#overview .about {
+	margin: 2.5% 0%;
 }
 
 #overview .btn {
@@ -440,6 +444,10 @@ a:hover {
 }
 
 /* Agenda */
+
+#agenda {
+	background-color: #EAEFF2;
+}
 
 #agenda ul li {
 	color: #484848;
