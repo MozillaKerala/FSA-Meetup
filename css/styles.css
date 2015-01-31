@@ -448,3 +448,17 @@ a:hover {
 	padding: 2%;
 	margin: 1% 15%;
 }
+
+/* FAQ */
+
+#faq {
+	background-color: #D4DDE4;	
+}
+
+#faq #accordion {
+	margin: 1% 15%;
+}
+
+#faq #accordion .panel-heading {
+	background-color: #EAEFF2;
+}
