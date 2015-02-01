@@ -471,6 +471,10 @@ a:hover {
 	background-color: #EAEFF2;
 }
 
+#faq #accordion .panel-body {
+	margin: 0% 2.5%;
+}
+
 /* Footer */
 
 footer {
