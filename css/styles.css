@@ -21,75 +21,36 @@ a:hover {
 /* Button */
 
 .btn {
-	border: 1px solid #ddd;
-	border-radius: 0;
-	background: transparent;
-}
-
-.btn:hover {
-	opacity: 1;
-}
-
-.btn-lg {
-	font-size: 28px;
+	color: #FFFFFF !important;
+	border: none !important;
 }
 
 .btn-3d {
 	background: #FF9500;
 	font-size: 22px;
-	color: #fff;
-	border:1px solid transparent;
-	border-bottom: 5px solid #1d37a7;
-	border-radius: 4px;
+	color: #FFFFFF;
 	padding: 9px 30px 9px 15px;
 }
 
-.btn-3d .fa {
-	opacity: .4;
-	color: #333;
-	margin-right: 10px;
-}
-
-.btn-3d span {
-	position: relative;
-	top:-8px;
-}
-
 .btn-3d:hover {
-	border: 1px solid #ddd;
-	background: #fff;
+	background: #FFFFFF !important;
 	color: #FF9500 !important;
-	border-bottom: 5px solid #ddd;
-}
-
-.btn-3d:hover .fa {
-	opacity: 1;
-	color: #FF9500;
-}
-
-.color .btn-3d {
-	color: #FF9500 !important;
-	background: #fff;
-	border-color: #ddd;
-}
-
-.color .btn-3d .fa {
-	color: #FF9500 !important;
+	border-bottom: 5px solid #FF9500 !important;
 }
 
 .btn-lg {
 	font-size: 35px;
-	padding:21px 55px;
+	padding: 21px 55px;
 }
 
 .btn-sm {
 	font-size: 20px;
-	padding:17px 43px;
+	padding: 17px 43px;
 }
 
 .btn-xs {
 	font-size: 18px;
-	padding:13px 35px;
+	padding: 13px 35px;
 }
 
 /* Overlay */
@@ -162,7 +123,7 @@ a:hover {
 
 #cover .cover-small a {
 	color: #048c4c !important;
-	text-shadow: 1px 1px #CCCCCC;
+	text-shadow: 1.25px 1.25px #C0C0C0;
 }
 
 #cover .cover-small a:hover {
@@ -392,11 +353,6 @@ a:hover {
 
 #overview .about {
 	margin: 2.5% 0%;
-}
-
-#overview .btn {
-	color: #FFFFFF !important;
-	border: none;
 }
 
 /* People */
