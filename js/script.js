@@ -6,6 +6,9 @@ $(document).ready(function(){
 	app.el['document']					= $(document);
 	app.el['back-to-top']				= $('.back-to-top');
 	app.el['html-body']					= $('html,body');
+	app.el['nav']						= $('nav');
+	app.el['nav-bar']					= $('.navigation-bar');
+	app.el['nav-bar-header']			= $('.navigation-bar-header');
 	app.el['accordion']					= $('#accordion');
 	app.el['reg-btn']					= $('.reg-btn');
 	app.el['register']					= $('#register');
@@ -19,6 +22,29 @@ $(document).ready(function(){
       return false;
     });
 
+
+	//Navigation Bar
+	app.el['window'].scroll(function () {
+		if ($(this).scrollTop() > 640) {
+			app.el['nav-bar-header'].fadeIn();
+		}	else {
+			app.el['nav-bar-header'].fadeOut();
+		}
+	});
+
+    app.el['nav'].waypoint('sticky', {
+		wrapper: '<div class="sticky-wrapper" />',
+		stuckClass: 'sticky'
+	});
+
+	app.el['nav-bar'].onePageNav({
+        currentClass: 'active',
+        changeHash: true,
+        scrollSpeed: 750,
+        scrollThreshold: 0.5,
+        easing: 'swing'
+    });
+
     //Change glyphicon on accordion on toggle
     app.el['accordion'].on('hide.bs.collapse show.bs.collapse', function (n) {
     	$(n.target).siblings('.panel-heading').find('span.glyphicon')
@@ -29,7 +55,7 @@ $(document).ready(function(){
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 640) {
 			app.el['back-to-top'].fadeIn();
-		} else {
+		}	else {
 			app.el['back-to-top'].fadeOut();
 		}
 	});
