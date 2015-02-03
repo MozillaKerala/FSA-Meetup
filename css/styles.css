@@ -369,6 +369,7 @@ a:hover {
 	text-align: left;
 	display: table;
 }
+
 .navigation-bar-header {
 	background: rgba(0, 0, 0, 0.75);
 	position: relative;
@@ -397,7 +398,7 @@ a:hover {
 }
 
 .navigation-bar > li a {
-	color: #fff;
+	color: #FFFFFF;
 	font-size: 18px;
 	padding: 10px 15px;
 	display: inline-block;
@@ -410,30 +411,8 @@ a:hover {
 }
 
 .navigation-bar > li.active a {
-	color: #fff;
+	color: #FFFFFF;
 }
-
-/*.navigation-bar > li.featured {
-	opacity:0;
-	-webkit-transition: all .5s linear;
-	-moz-transition: all .5s linear;
-	transition: all .5s linear;
-}
-
-.sticky .navigation-bar > li.featured {
-	opacity:1;
-}
-
-.navigation-bar > li.featured {
-	padding-bottom: 22px;
-	padding-top: 22px;
-	margin-right: 25px;
-	float: right;
-}
-
-.navigation-bar > li.featured i {
-	padding-right: 10px;
-}*/
 
 .navigation-bar > li.featured a {
 	color: #FFFFFF !important;
